@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "module": "ES2020",
+        "strict": false,
+        // 模块解析是编译器用来确定导入所指内容的过程。在ts项目里面，ts文件是识别不了.vue文件，.vue文件也识别不了.ts文件，需要该配置让两者相互能识别。
+        "moduleResolution": "node",
+    }
+}

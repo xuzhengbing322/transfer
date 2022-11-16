@@ -1,0 +1,29 @@
+{
+  "name": "demo_transfer",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "built": "webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "less-loader": "^11.1.0",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.4",
+    "vue": "^3.2.41",
+    "vue-loader": "^17.0.1",
+    "vue-style-loader": "^4.1.3",
+    "vue-template-compiler": "^2.7.13",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^4.11.1"
+  },
+  "description": ""
+}
